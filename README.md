@@ -10,7 +10,7 @@ Hacer un fork de este repositorio, la entrega constara de entregar al (los) prof
 
 Se deberá entregar:
 
-1. Un script de bash que descargue el archivo .zip de la siguiente url: https://gist.githubusercontent.com/sebiglesias/ea2faa92f4b25a79f811104584e91efb/raw/02378f041ae64d3d021031efeb1572cbddfc2fc7/test-web-server-log.txt
+1. Un script de bash que descargue el archivo .txt de la siguiente url: https://gist.githubusercontent.com/sebiglesias/ea2faa92f4b25a79f811104584e91efb/raw/02378f041ae64d3d021031efeb1572cbddfc2fc7/test-web-server-log.txt
    1. El script debe descargar el archivo, y generar dos nuevos archivos a partir del mismo, uno que tendrá todas las líneas de registros con código 200 `ok.txt` y otro archivo con todas las lineas que tengan un código 500 `errors.txt`.
    2. Pueden utilizar `curl`, `grep` y el operador `>>`
 
