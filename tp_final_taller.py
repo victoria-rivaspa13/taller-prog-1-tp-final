@@ -12,7 +12,7 @@ status_code_count = {}  # diccionario para contar los códigos de estado
 total_requests = 0
 successful_requests = 0
 
-# Procesar cada línea en los registros
+# procesar cada línea en los registros
 for line in logs:
     parts = line.split()
     if len(parts) < 9:
